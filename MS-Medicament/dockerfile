@@ -1,0 +1,4 @@
+FROM openjdk:17-oracle
+COPY target/*.jar medicament-service.jar
+EXPOSE 9082
+CMD ["java", "-jar", "medicament-service.jar"]

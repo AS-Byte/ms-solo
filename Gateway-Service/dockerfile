@@ -1,0 +1,4 @@
+FROM openjdk:17-oracle
+COPY target/*.jar gateway-service.jar
+EXPOSE 9090
+CMD ["java", "-jar", "gateway-service.jar"]
