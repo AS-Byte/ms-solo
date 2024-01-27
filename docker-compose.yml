@@ -87,7 +87,7 @@ services:
 
       - config-service
 
-      - mongodb
+      - mysql
 
   depot-service:
 
@@ -121,7 +121,7 @@ services:
 
       - config-service
 
-      - mysql
+      - mongodb
 
   gateway-service:
 
