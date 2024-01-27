@@ -159,10 +159,8 @@ services:
       image: mysql:8.2.0
       container_name: mysql
       environment:
-        MYSQL_ROOT_PASSWORD: root
         MYSQL_DATABASE: msmedicaments
-        MYSQL_ALLOW_EMPTY_PASSWORD:
-        MYSQL_PASSWORD:
+        MYSQL_ROOT_PASSWORD: root
       ports:
         - "3306:3306"
       networks:
